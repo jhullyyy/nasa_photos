@@ -13,7 +13,7 @@ h1 {
 	text-align: center;
 }
 .navbar {
-	background-color: #9d6a57 !important;
+	background-color: #55637a !important;
 	box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
 }
 a {
@@ -21,4 +21,7 @@ a {
 }
 a:hover {
 	font-weight: 600;
+}
+.navbar-toggler {
+	background-color: aliceblue;
 }
