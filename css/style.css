@@ -6,6 +6,7 @@ body {
 	background-image: url(/img/background.jpg);
 	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) 100%), url(/img/background.jpg);
 	background-size: cover;
+	background-repeat: no-repeat;
 }
 h1 {
 	color: aliceblue;
@@ -24,4 +25,23 @@ a:hover {
 }
 .navbar-toggler {
 	background-color: aliceblue;
+}
+.container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 500px;
+	flex-direction: column;
+}
+input {
+	margin-bottom: 30px;
+	width: 480px;
+	font-size: 11px;
+	padding: 4px;
+	border-radius: 10px;
+	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+	background-color: #97aacc;
+}
+input::-webkit-input-placeholder {
+	color: #2b323e;
 }
