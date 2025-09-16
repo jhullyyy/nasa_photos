@@ -26,7 +26,7 @@ a:hover {
 .navbar-toggler {
 	background-color: aliceblue;
 }
-input {
+/* input {
 	margin-bottom: 30px;
 	width: 480px;
 	font-size: 12px;
@@ -39,6 +39,9 @@ input {
 }
 input::-webkit-input-placeholder {
 	color: #fff;
+} */
+.material-symbols-outlined {
+	font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24;
 }
 .container {
 	display: flex;
