@@ -16,11 +16,8 @@ h1 {
 	background-color: #55637a !important;
 	box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
 }
-a {
-	color: aliceblue !important;
-}
-a:hover {
-	font-weight: 600;
+.navbar a {
+	color: aliceblue;
 }
 .navbar-toggler {
 	background-color: aliceblue;
@@ -43,5 +40,9 @@ p {
 img {
 	max-width: 100%;
 	padding: 20px 0 20px 0;
-	border-radius: px;
+}
+#botao-topo {
+	color: #55637a;
+	text-decoration: none;
+	font-weight: 600;
 }
